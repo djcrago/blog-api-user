@@ -1,4 +1,4 @@
-import { DateTime } from 'luxon';
+// import { DateTime } from 'luxon';
 import createPreviewBody from './createPreviewBody.js';
 import fullPostController from '../controllers/fullPostController.js';
 
@@ -12,7 +12,8 @@ export default function createPreview(post) {
 
   const info = document.createElement('p');
   const author = `${post.author.first_name} ${post.author.last_name}`;
-  const date = DateTime.fromISO(post.date).toLocaleString(DateTime.DATE_MED);
+  // const date = DateTime.fromISO(post.date).toLocaleString(DateTime.DATE_MED);
+  const date = post.date;
   info.textContent = `${author} - ${date}`;
   preview.appendChild(info);
 
