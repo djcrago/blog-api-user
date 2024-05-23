@@ -3,6 +3,8 @@
 This repository houses an example blog website where visitors can read and comment on blog posts.
 The live website can be found here: https://djcrago.github.io/blog-api-user/
 
+This website accesses a "public" API endpoint which only provides posts the author has published (not the drafts they haven't yet).
+
 Screenshot of Live Website:
 ![Screenshot of website this repository houses](./website-screenshot.png?raw=true 'Website Screenshot')
 
