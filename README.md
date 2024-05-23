@@ -16,6 +16,7 @@ The contents of this repository were copied from a central repository housing al
 
 - Code modularization for the sake of readability and clarity
 - A custom function for working with dates
+- Using a Model-View-Controller architecture to separate concerns
 
 ## License
 
