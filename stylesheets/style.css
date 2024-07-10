@@ -20,14 +20,28 @@ header {
   height: 15vh;
 }
 
-h1 {
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1vw;
   min-width: 100vw;
   height: 9vh;
   background-color: #2dd9e9;
-  color: #4a3d3a;
+}
+
+img {
+  width: 50px;
+}
+
+h1 {
+  display: flex;
+}
+
+.link:link,
+.link:visited {
+  color: black;
+  text-decoration: none;
 }
 
 header nav {
